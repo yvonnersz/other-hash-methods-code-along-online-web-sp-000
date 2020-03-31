@@ -11,7 +11,6 @@ require 'pry'
 def get_the_values(groceries)
   #code your solution here!
   nested_hash = groceries.values
-  nested_hash.each do |value|
-    return value
+  binding.pry
   end
 end
