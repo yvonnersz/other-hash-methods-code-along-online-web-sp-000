@@ -12,5 +12,4 @@ def get_the_values(groceries)
   #code your solution here!
   nested_hash = groceries.values
   binding.pry
-  end
 end
