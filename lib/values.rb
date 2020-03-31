@@ -13,4 +13,5 @@ def get_the_values(groceries)
   nested_hash = groceries.values
   nested_hash.each do |value|
     return value
+  end
 end
