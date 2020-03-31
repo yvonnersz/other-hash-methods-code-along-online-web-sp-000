@@ -10,6 +10,6 @@ require 'pry'
 
 def get_the_values(groceries)
   #code your solution here!
-  nested_hash = groceries.values
+  nested_hash = groceries.values.flatten
   binding.pry
 end
